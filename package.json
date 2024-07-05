@@ -1,0 +1,31 @@
+{
+  "name": "own-project",
+  "version": "1.0.0",
+  "description": "Website presensi karyawan Own Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldachecia/OwnProject.git"
+  },
+  "author": "OwnProject",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeraldachecia/OwnProject/issues"
+  },
+  "homepage": "https://github.com/emeraldachecia/OwnProject#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.5.0",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  }
+}
